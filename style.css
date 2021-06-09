@@ -1,5 +1,5 @@
 
- img {
+ .logo img, .image-logo img {
     width: 280px;
     position: absolute;
     top: 33%;
@@ -73,20 +73,20 @@ a[href="image.html"]:hover {
   transform: translate(-50%, -50%);
 }
 
-.back-to-search {
+.header-links{
   text-align: right;
-  margin-right: 20px;
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 0.8rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#back-to-search {
+.header-links a {
+  margin-right: 10px;
   color: black;
   text-decoration: none;
 }
 
-#back-to-search:hover {
+.header-links a:hover {
   text-decoration: underline;
 }
 
