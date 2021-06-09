@@ -1,10 +1,11 @@
 
- .logo img, .image-logo img {
+ .Search-container img, .image-logo img {
     width: 280px;
     position: absolute;
     top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
   }
 
  .image-search input[type=text], .search input[type=text] {
@@ -47,7 +48,7 @@
 
 
 /* Image Search  */
-.other-search {
+.header {
   text-align: right;
   margin-right: 30px;
   margin-top: 10px;
