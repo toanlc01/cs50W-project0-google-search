@@ -112,10 +112,14 @@ body {
   width: 150px;
 }
 
-.advanced-search-container .whitespace, .find-keyword input, .advanced-search-button div {
+.advanced-search-container .whitespace, .find-keyword input, .advanced-search-button .button-container {
   display: inline-block;
-  width: 55%;
+  width: 40%;
   margin-top: 15px;
+}
+
+.find-keyword input {
+  padding: 5px 5px;
 }
 
 .find-keyword label {
@@ -126,5 +130,17 @@ body {
 .advanced-search-button .button-container {
   text-align: right;
   margin-right: 0px;
+  margin-top: 20px;
 }
 
+.button-container input {
+  background-color: rgb(132, 132, 244);
+  color: white;
+  font-weight: bold;
+  padding: 5px 5px;
+  border: none;
+}
+
+.button-container input:hover {
+  background-color: rgb(121, 121, 240);
+}
