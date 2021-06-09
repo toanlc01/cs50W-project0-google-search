@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Link to CSS  -->
     <link rel="stylesheet" href="style.css">
+    <!-- set viewport width  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Images</title>
 </head>
 <body>
-    <div class="back-to-search">
-        <a id="back-to-search" href="index.html">Google Search</a>
+    <!-- Start header  -->
+    <div class="header">
+        <div class="header-links">
+            <a href="index.html">Google Search</a>
+            <a href="index.html">Advanced</a>
+        </div>
     </div>
+    <!-- End header  -->
 
-    <div class="image-logo">
-        <img src="image-logo.png" alt="Google Logo" height="110px">
-    </div>
-
-    <div class="image-search">
-        <form class="search-box" action="http://images.google.com/images" method="get">
-            <div>
-                <input type="text" name="q">
+    <!-- Start image container  -->
+    <div class="search-container">
+        <form action="https://www.google.com/search">
+            <img src="google_logo.png" alt="Google Logo">
+            <div class="search-field">
+                <input class="box" type="text" name="q">
             </div>
+            <input type="hidden" name="tbm" value="isch">
+        </form>
     </div>
+    <!-- End image container  -->
 </body>
 </html>
